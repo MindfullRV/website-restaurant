@@ -35,7 +35,11 @@
             </nav>
         </header>
         <!-- Main -->
-        <main></main>
+        <main>
+            <section id="headline">
+                <div class="container"></div>
+            </section>
+        </main>
         <!-- Footer -->
         <footer></footer>
     </body>
