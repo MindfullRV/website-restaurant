@@ -43,7 +43,7 @@ h4 {
 body {
     background-color: var(--bg-color);
     color: white;
-    font-family: 'Calibri';
+    font-family: 'Ebrima';
 }
 
 .hero-img {
@@ -128,4 +128,76 @@ main #headline button:hover {
 
 main #headline button:active {
     transform: scale(0.95);
+}
+
+main #about {
+    height: unset;
+    margin-bottom: 5em;
+}
+
+main #about .feature {
+    margin-top: 2.5em;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main #about .feature img {
+    width: 25em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+main #about .feature.flip {
+    grid-template-areas: "left right";
+    text-align: left;
+}
+
+main #about .feature.flip img {
+    grid-area: left;
+}
+
+main #about .feature .content {
+    width: 450px;
+}
+
+main #about .feature .content h4 {
+    font-size: 24px;
+    margin-bottom: 0.7em;
+}
+
+main #review .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2em;
+    width: 50vw;
+    margin: 3em auto;
+}
+
+main #review .card {
+    width: 350px;
+    height: 200px;
+    background-color: var(--bg-color-variant);
+    border-radius: 5px;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+}
+
+main #review .card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+main #review .card h3 {
+    font-size: 24px;
 }

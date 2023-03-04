@@ -22,7 +22,7 @@
             <img src="assets/svg/logo.svg" alt="icon">
             <nav>
                 <ul>
-                    <li><a class="active" href="#headline">Home</a></li>
+                    <li><a class="active" href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#review">Review</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -69,6 +69,41 @@
                             <p>Our restaurant will promptly address customer complaints to avoid bigger issues and negative reviews. Regardless of whether the complaint is legitimate or not, employees must pay attention to customers. To deal with problems, our staff will solve problems quickly and discreetly.</p>
                         </div>
                         <img src="assets/about-img3.png" alt="image">
+                    </div>
+                </div>
+            </section>
+            <section id="review">
+                <div class="container">
+                    <h1 class="text-center">Reviews</h1>
+                    <div class="grid-4">
+                        <div class="card">
+                            <img src="assets/person1.jpg" alt="image">
+                            <div class="card-body">
+                                <h3>Patrick</h3>
+                                <q>The food is really delicious, the spices are tasty and delicious. Recommended to eat with loved ones.</q>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/person2.jpg" alt="image">
+                            <div class="card-body">
+                                <h3>Tyler</h3>
+                                <q>10/10 Really a recommendation for those who want to have a date in a luxurious place, my girlfriend is so happy.</q>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/person3.jpg" alt="image">
+                            <div class="card-body">
+                                <h3>Louis</h3>
+                                <q>The place is really nice, and luxurious. The food is delicious.</q>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/person4.jpg" alt="image">
+                            <div class="card-body">
+                                <h3>Driver</h3>
+                                <q>The food is really tasty, richly spiced and delicious. Recommend to dine with relatives. </q>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
